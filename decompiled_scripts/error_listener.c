@@ -117,14 +117,14 @@ void func_2()
 	var uVar5;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x9418088815C89D59(2))
+	while (iVar0 < unk_0x89DE709C9F3052C5(2))
 	{
-		iVar1 = unk_0xB1D84E0EF6979085(2, iVar0);
+		iVar1 = unk_0xB09B723333956A0B(2, iVar0);
 		if (func_10(iVar1))
 		{
 			func_9(&Var2);
 			func_8(2, iVar0, iVar1, &Var2);
-			Var2.f_1 = (unk_0x8142A6539DDC180F() - 1);
+			Var2.f_1 = (unk_0xE16824A2A0B2A6D8() - 1);
 			Var2.f_0 = iVar1;
 			if (!func_7(&Var2, &uVar5))
 			{
@@ -141,9 +141,9 @@ void func_3(int iParam0)
 	int iVar0;
 	
 	iVar0 = *iParam0;
-	if (((func_5() && func_4(iVar0)) && iVar0 != 248) && unk_0x08D888A13C7EAE9A())
+	if (((func_5() && func_4(iVar0)) && iVar0 != 248) && unk_0x95A5B3169785AB83())
 	{
-		unk_0x6C5C36A8B5B604A8(0, 1, 0);
+		unk_0x5B3EF2A8B73D8B50(0, 1, 0);
 	}
 }
 
@@ -154,15 +154,15 @@ bool func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_1853348[unk_0x9E2D6C50374FCFA9() /*834*/].f_192 != 0;
+	return Global_1853910[unk_0x93E99A2DBCBA9CFA() /*862*/].f_192 != 0;
 }
 
 int func_6(int iParam0)
 {
-	if (Global_32237.f_61 < 20)
+	if (Global_32442.f_61 < 20)
 	{
-		Global_32237[Global_32237.f_61 /*3*/] = { *iParam0 };
-		Global_32237.f_61++;
+		Global_32442[Global_32442.f_61 /*3*/] = { *iParam0 };
+		Global_32442.f_61++;
 		return 1;
 	}
 	return 0;
@@ -172,9 +172,9 @@ int func_7(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_32237.f_61)
+	while (*uParam1 < Global_32442.f_61)
 	{
-		if (Global_32237[*uParam1 /*3*/] == *iParam0 && Global_32237[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_32442[*uParam1 /*3*/] == *iParam0 && Global_32442[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}
@@ -189,7 +189,7 @@ void func_8(int iParam0, int iParam1, int iParam2, var uParam3)
 	
 	if (((iParam2 == 248 || iParam2 == 249) || iParam2 == 250) || iParam2 == 251)
 	{
-		if (unk_0x92039F20B184AB4D(iParam0, iParam1, &uVar0, 1))
+		if (unk_0x11DE375695504B75(iParam0, iParam1, &uVar0, 1))
 		{
 			uParam3->f_2 = uVar0;
 		}
@@ -215,6 +215,6 @@ int func_11()
 
 void func_12()
 {
-	unk_0x3F57BEDBC381CBC7();
+	unk_0x389D5B1C24A046B5();
 }
 

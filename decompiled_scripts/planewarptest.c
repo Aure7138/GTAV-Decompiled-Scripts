@@ -36,13 +36,13 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
-	if (unk_0x4B34601C5C56F3EE(3))
+	if (unk_0x55EEDBBFDC6E810F(3))
 	{
 		func_1();
 	}
-	unk_0xBD1F51FB3FA2C6E4(1);
-	unk_0xD69A0C3662175E68(joaat("cuban800"));
-	while (!unk_0x0152AA00FA3130F1(joaat("cuban800")))
+	unk_0xB65977CD1EC089B5(1);
+	unk_0x852EC2A7DE66202D(joaat("cuban800"));
+	while (!unk_0x0CBB7C273DED26E7(joaat("cuban800")))
 	{
 		unk_0x4EDE34FBADD967A6(0);
 	}
@@ -50,17 +50,17 @@ void __EntryFunction__()
 	Local_19[1 /*3*/] = { 1215.738f, 3586.608f, 33.5131f };
 	fLocal_26[0] = 277.7043f;
 	fLocal_26[1] = 77.1113f;
-	if (!unk_0x55B23FE400FCEA6B(unk_0xE2D3D51028F0428A(), 0))
+	if (!unk_0x055111B11E6624FD(unk_0xC1A5EC5C986B98AD(), 0))
 	{
-		unk_0xC64B6E13A6A7F517(unk_0xE2D3D51028F0428A(), 1220.202f, 3596.281f, 33.259f, 1, 0, 0, 1);
+		unk_0xC2E3C377D893C17A(unk_0xC1A5EC5C986B98AD(), 1220.202f, 3596.281f, 33.259f, 1, 0, 0, 1);
 	}
-	unk_0x42C4310E76AD635A(1220.202f, 3596.281f, 33.259f);
-	uLocal_18 = unk_0xBA715A7BEBA5A1F9(joaat("cuban800"), Local_19[0 /*3*/], fLocal_26[0], 1, 1, 0);
-	unk_0x9F65B3BAFA302A65(uLocal_18, 1084227584);
-	unk_0xF1A23B343DFEDFD0(joaat("cuban800"));
-	if (!unk_0x55B23FE400FCEA6B(unk_0xE2D3D51028F0428A(), 0))
+	unk_0xDA6C666E27FEE6F3(1220.202f, 3596.281f, 33.259f);
+	uLocal_18 = unk_0xABEEDBEF2BBDF5B3(joaat("cuban800"), Local_19[0 /*3*/], fLocal_26[0], 1, 1, 0);
+	unk_0xCB8DD5B44DBC2DEB(uLocal_18, 1084227584);
+	unk_0xE0A291F406691F03(joaat("cuban800"));
+	if (!unk_0x055111B11E6624FD(unk_0xC1A5EC5C986B98AD(), 0))
 	{
-		unk_0xA9F390242F9EB2E1(unk_0xE2D3D51028F0428A(), uLocal_18, -1);
+		unk_0x4C18E9202CF6CACA(unk_0xC1A5EC5C986B98AD(), uLocal_18, -1);
 	}
 	while (true)
 	{
@@ -71,15 +71,15 @@ void __EntryFunction__()
 
 void func_1()
 {
-	if (!unk_0x55B23FE400FCEA6B(unk_0xE2D3D51028F0428A(), 0))
+	if (!unk_0x055111B11E6624FD(unk_0xC1A5EC5C986B98AD(), 0))
 	{
-		unk_0x51BB443B279E4104(unk_0xE2D3D51028F0428A());
+		unk_0x35DD50D05C962B6A(unk_0xC1A5EC5C986B98AD());
 	}
-	if (unk_0xE5965CDF24F93A9F(uLocal_18))
+	if (unk_0x7DE17ACDD8BA2642(uLocal_18))
 	{
-		unk_0xD59CC8123FD1A789(&uLocal_18);
+		unk_0x2728CF7242F08BD5(&uLocal_18);
 	}
-	unk_0xF1A23B343DFEDFD0(joaat("cuban800"));
-	unk_0xAFBDF6A5E54114C1();
+	unk_0xE0A291F406691F03(joaat("cuban800"));
+	unk_0x675D9C12C73D3DE7();
 }
 
